@@ -1,0 +1,65 @@
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #eae9e8;
+  padding: 7px;
+  border-left: 1px #cecccb solid;
+  border-bottom: 1px #dcdad9 solid;
+}
+
+.chat-header-info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chat-header-info > p {
+  color: #8c8c8c;
+}
+
+.chatbox-container {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-position: center;
+  background-repeat: repeat;
+  overflow-y: scroll;
+}
+
+.chatbox-message-input {
+  width: 100%;
+  background-color: #eae9e8;
+  margin-bottom: 0px;
+}
+
+.chatbox-message-input > input {
+  background-color: #fff;
+  justify-content: space-between;
+  min-width: 50%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(164, 164, 164);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 128, 128);
+}

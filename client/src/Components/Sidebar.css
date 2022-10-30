@@ -1,0 +1,65 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  min-width: 230px;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eae9e8;
+  border-right: 1px #eae9e8 solid;
+  border-bottom: 1px #dcdad9 solid;
+}
+
+.sidebar-header-controllers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+.sidebar-search {
+  background-color: #fff;
+  border-bottom: 1px #eae9e8 solid;
+  padding: 5px;
+}
+
+.sidebar-search-input {
+  background-color: #eae9e8;
+  border-radius: 10px;
+  padding: none;
+}
+
+input {
+  background-color: #eae9e8;
+  border: none;
+  font-size: 14px;
+  outline-width: 0px;
+}
+
+.sidebar-chats-display {
+  border-right: 1px #eae9e8 solid;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(164, 164, 164);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(128, 128, 128);
+}
